@@ -77,3 +77,58 @@ footer
 	border-radius: 30px;
 }
 
+
+.button {
+  background: rgba(195, 177, 225, 0.1);
+  border-radius: 0.5em;
+  box-shadow:
+    inset 0px -6px 18px -6px rgba(195, 177, 225, 0.2),
+    inset rgba(195, 177, 225, 0.3) -1px -1px 6px 0px,
+    inset 12px 0px 12px -6px rgba(195, 177, 225, 0.1),
+    inset -12px 0px 12px -6px rgba(195, 177, 225, 0.1),
+    rgba(195, 177, 225, 0.4) -1px -1px 6px 0px;      
+  border: solid 2px #C3B1E1; 
+  cursor: pointer;
+  font-family: Barlow;
+  font-size: 18px;
+  padding: 0.7em 1.7em;
+  outline: none;
+  transition: all 0.3s;
+  user-select: none;
+}
+
+.button:hover {
+  box-shadow:
+    inset 0px -6px 18px -6px rgba(195, 177, 225, 0.5),
+    inset 0px 6px 18px -6px rgba(195, 177, 225, 0.5),
+    inset 12px 0px 12px -6px rgba(195, 177, 225, 0.1),
+    inset -12px 0px 12px -6px rgba(195, 177, 225, 0.1),
+    -1px -1px 6px 0px rgba(195, 177, 225, 0.5);
+}
+
+.button:active {
+  box-shadow:
+    inset 0px -12px 12px -6px rgba(195, 177, 225, 0.6),
+    inset 0px 12px 12px -6px rgba(195, 177, 225, 0.6),
+    inset 12px 0px 12px -6px rgba(195, 177, 225, 0.4),
+    inset -12px 0px 12px -6px rgba(195, 177, 225, 0.4),
+    -1px -1px 6px 0px rgba(195, 177, 225, 0.5);
+}
+
+.text-to-the-top {
+  color: #C3B1E1; 
+
+   
+  font-weight: 700;
+  margin: auto;
+  transition: all 0.3s;
+  width: fit-content;
+}
+
+.button:hover .text-to-the-top  {
+  transform: scale(0.9);
+}
+
+.button:active .text-to-the-top  {
+  transform: scale(0.8);
+}
