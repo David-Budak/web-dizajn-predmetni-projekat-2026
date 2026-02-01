@@ -8,7 +8,7 @@ Alen Gavrilović, AI 13/2022
 @font-face 
 {
   font-family: 'type_icons'; /* name you’ll use in CSS */
-  src: url('.fonts/type_icons.ttf');
+  src: url(fonts/TypeIcons.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -60,5 +60,7 @@ footer
 	display: flex;
     align-items: center;
     justify-content: center;
+ margin-top: 50px;
+ 
 }
 
