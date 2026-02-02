@@ -18,6 +18,10 @@ body
 	background-color: #200020;
 }
 
+img
+{
+	border-radius: 30px;
+}
 /* NAVBAR */
 
 nav
@@ -132,3 +136,43 @@ footer
 .button:active .text-to-the-top  {
   transform: scale(0.8);
 }
+
+.container-fluid .lead
+{
+  font-size: 25px;
+  font-family: 'Barlow Condensed';
+ font-weight: 400;
+}
+
+.container-fluid .h1
+{
+  font-family: 'Barlow Condensed';
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.container-fluid .h3
+{
+  font-family: 'Barlow Condensed';
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.container-fluid .h4
+{
+  font-family: 'Barlow Condensed';
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.carousel-inner img
+{
+  image-resolution: ;
+} 
