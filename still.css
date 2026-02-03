@@ -278,6 +278,6 @@ footer
 
 .card:hover
 {
-  transform: scale(1.1);
+  transform: scale(1.15);
   transition: .25s ease;
 }
