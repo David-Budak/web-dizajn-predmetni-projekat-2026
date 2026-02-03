@@ -29,7 +29,7 @@
 
       <li class="nav-item dropdown position-relative">
 
-        <a class="nav-link dropdown-toggle" href="./music.html" role="button" data-bs-toggle="dropdown">MUZIKA</a>
+        <a class="nav-link dropdown-toggle active" href="./music.html" role="button" data-bs-toggle="dropdown">MUZIKA</a>
 
           <ul class="dropdown-menu">
             <li><a class="dropdown-item active" href="#">Bliss Leaves As All Things Do</a></li>
@@ -76,27 +76,33 @@
       <img src="./gallery/music/ep.jpg" class="img-fluid" alt="Slika nije učitana">
     </div>
 
+    <!-- TEKST  -->
     <div class="col-sm-8 lead">
-    
+
       <p>
+        Debi EP benda <b>Zenit</b> <i>"Bliss Leaves As All Things Do"</i> kroz 4 pesme obrađuje temu blaženstva (eng. <i>bliss</i>). Uvodna pesma <i>"Vows"</i> napisana je kao venčani zavet, ulazak u blaženstvo sa voljenom osobom. Ova ideja je proširena u pesmi <i>"Lucid"</i>, koja govori o tome kako mržnja i netrpeljivost sveta ne utiče na ljude koji su našli mir sa srodnom dušom, po ugledu na <i>"Svetkovinu"</i> od Sime Pandurovića. Treća pesma <i>"Transparent"</i> unosi sumnju i strah da će ipak nestati to blaženstvo, što se i desi u poslednjoj numeri <i>"Bliss"</i>, koja postavlja izbor: da li patiti ili tražiti spokoj u porocima.<br> Ovaj ciklus događaja je prikazan i u samom dizajnu za EP, gde se svaka priča, odnosno pesma, "vrti" oko blaženstva. 
+      </p>
+    
+      <p class="quote mt-5">
         <i>EP “Bliss Leaves As All Things Do” pokazuje Zenitovu sposobnost da spoji poetične tekstove i melodične metal aranžmane u emotivnoj dubini. Mogu reći da jedva čekam album jer u meni su dobili fana i nekog željnog za poslušati ih uživo.</i>
       </p>
       
-      <blockquote class="blockquote-footer">Vedad Kobiljak, 28.9.2025.</blockquote>
+      <blockquote class="blockquote-footer quote">Vedad Kobiljak, 28.9.2025.</blockquote>
 
-
-    <div class="card custom-color lead p-3 rounded-5">
-      <div class="d-flex align-items-center gap-4">
+    <!-- PLAY AUDIO  -->
+    <div class="card custom-color lead p-3 rounded-5 mt-5">
+      <div class="d-flex align-items-center gap-4 ">
 
         <button id="playBtn" class="btn button">
           ▶
         </button>
 
         <div class="flex-grow-1">
-          <p>Zenit – Lucid</p>
+          <p style="text-align: center;">Zenit – Bliss Leaves As All Things Do</p>
           <input
             type="range"
             id="progress"
+            class="form-range"
             value="0"
           >
         </div>
@@ -106,7 +112,7 @@
         </div>
 
         <audio id="audio">
-          <source src="./gallery/music/lucid.mp3" type="audio/mp3" controls>
+          <source src="./gallery/music/ep.mp3" type="audio/mp3" controls>
         </audio>
 
         <script src="play-audio.js"></script>
@@ -116,18 +122,34 @@
 
   </div>
 
-  <!-- RECENZIJA -->
+  <!-- Linkovi ka pesmama -->
+  <br>
+  <br>
+
+  <div class="row mt-5 justify-content-center">
+    <p class="h1">Želiš da saznaš više o muzici Zenita?</p>
+  </div>
+
   <div class="row mt-5 justify-content-center">
 
-    <div class="col-sm-2">
+    <div class="col-sm-2 button">
+      <p class="lead" style="text-align: center;">Klikni da vidiš</p>
       <a href="./lucid.html"><img src="./gallery/music/lucid.png" class="img-fluid" alt="Slika nije učitana"></a>
     </div>
 
-    <div class="col-sm-2">
+    <div class="col-sm-1">
+    </div>
+
+    <div class="col-sm-2 button">
+      <p class="lead" style="text-align: center;">Klikni da vidiš</p>
       <a href="./transparent.html"><img src="./gallery/music/transparent.png" class="img-fluid" alt="Slika nije učitana"></a>
     </div>
 
-    <div class="col-sm-2">
+    <div class="col-sm-1">
+    </div>
+
+    <div class="col-sm-2 button">
+      <p class="lead" style="text-align: center;">Klikni da vidiš</p>
       <a href="./transparent.html"><img src="./gallery/music/transparent.png" class="img-fluid" alt="Slika nije učitana"></a>
     </div>
     
