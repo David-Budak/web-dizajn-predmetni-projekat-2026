@@ -189,3 +189,13 @@ footer
 }
 
 
+.border-scrollspy
+{
+
+  background-color: black;
+  border-radius: 5px;
+  border-color: white;
+  border: 5px;
+
+
+}
