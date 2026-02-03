@@ -1,0 +1,220 @@
+<!-- David Budak, AI 7/2022-->
+<!-- Alen Gavrilović, AI 13/2022-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Zenit - Videi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="still.css">
+  <link rel="icon" type="image/x-icon" href="./gallery/ZENIT Symbol.png">
+</head>
+
+<body>
+
+<!-- NAVBAR -->  
+<nav class="navbar navbar-expand-md custom-color navbar-dark sticky-top">
+
+  <div class="container-fluid">
+    
+    <ul class="navbar-nav justify-content-center w-100">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="./about.html">O BENDU</a>
+      </li>
+
+      <li class="nav-item dropdown position-relative">
+
+        <a class="nav-link dropdown-toggle" href="./music.html" role="button" data-bs-toggle="dropdown">MUZIKA</a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./ep.html">Bliss Leaves As All Things Do</a></li>
+            <li><a class="dropdown-item" href="./lucid.html">Lucid</a></li>
+            <li><a class="dropdown-item" href="./transparent.html">Transparent</a></li>
+            <li><a class="dropdown-item" href="./bliss.html">Bliss</a></li>
+          </ul>
+
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link active" href="#">VIDEI</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">
+          <img src="./gallery/ZENIT Symbol.png">
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="./merch.html">KUPOVINA</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="./past.html">ISTORIJA</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">KONTAKT</a>
+      </li>
+
+    </ul>
+  </div>
+
+</nav>
+
+<!-- VIDEOS --> 
+<div class="container-fluid p-4">
+
+  <div class="row">
+
+    <!-- LUCID VIDEO -->
+    <div class="col-md-4">
+
+      <button type="button" class="btn button w-100" data-bs-toggle="modal" data-bs-target="#Lucid">
+        <h3 class="text-light">Zenit - Lucid (Official Lyric Video)</h3>
+        <img src="./gallery/videos/lucidThumbnail.jpg" class="img-fluid">
+      </button>
+
+      <div class="modal fade" id="Lucid">
+
+        <div class="modal-dialog modal-xl">
+
+          <div class="modal-content custom-color">
+
+            <div class="modal-body p-1">
+
+              <div class="ratio ratio-16x9">
+                <video id="lucidVideo" controls preload="metadata">
+                  <source src="./gallery/videos/Lucid.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+              <script src="play-video.js"></script>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TRANSPARENT VIDEO -->
+    <div class="col-md-4">
+
+      <button type="button" class="btn button w-100" data-bs-toggle="modal" data-bs-target="#Transparent">
+        <h3 class="text-light">Zenit - Transparent (Official Lyric Video)</h3>
+        <img src="./gallery/videos/transparentThumbnail.jpg" class="img-fluid">
+      </button>
+
+      <div class="modal fade" id="Transparent">
+
+        <div class="modal-dialog modal-xl">
+
+          <div class="modal-content custom-color">
+
+            <div class="modal-body p-1">
+
+              <div class="ratio ratio-16x9">
+                <video id="transparentVideo" controls preload="metadata">
+                  <source src="./gallery/videos/Transparent.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BLISS VIDEO -->
+    <div class="col-md-4">
+
+      <button type="button" class="btn button w-100" data-bs-toggle="modal" data-bs-target="#Bliss">
+        <h3 class="text-light">Zenit - Bliss (Official Lyric Video)</h3>
+        <img src="./gallery/videos/blissThumbnail.jpg" class="img-fluid">
+      </button>
+
+      <div class="modal fade" id="Bliss">
+
+        <div class="modal-dialog modal-xl">
+
+          <div class="modal-content custom-color">
+
+            <div class="modal-body p-1">
+
+              <div class="ratio ratio-16x9">
+                <video id="blissVideo" controls preload="metadata">
+                  <source src="./gallery/videos/Bliss.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- BACK TO TOP -->
+<button id="btnTop" class="button text-to-the-top  position-fixed bottom-0 end-0 m-4">
+  Nazad na vrh
+</button>
+
+<script src="back-to-top.js"></script>
+
+<!-- FOOTER -->    
+<footer class="navbar navbar-expand-md navbar-dark ">
+
+  <div class="container-fluid">
+    
+    <ul class="navbar-nav justify-content-center w-100">
+       <li class="nav-item ">
+        <a class="nav-link" 
+        href="mailto:gavrilovic2111@gmail.com">></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link " href="https://www.facebook.com/share/1NV8agdYZB/" role="button">f</a>
+      </li>
+
+       <li class="nav-item ">
+        <a class="nav-link " href="https://www.instagram.com/zenit_metal/" role="button">c</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link " href="https://open.spotify.com/artist/0Xr3tUNLjvflJk4o1aGafF?si=zFRTSS8cS8KCXH_guFYr7A" role="button">M</a>
+      </li>
+  
+       <li class="nav-item ">
+        <a class="nav-link " href="https://on.soundcloud.com/BoUpar4ZLLosrbNNQo">5</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="https://www.youtube.com/@zenitmetal/videos">y</a>
+      </li>
+     
+      <li class="nav-item "> 
+        <a class="nav-link" 
+        href="mailto:davidbudak13@gmail.com">></a>
+      </li>
+    </ul>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
