@@ -27,9 +27,7 @@ img
 
 nav
 {
-   
-
-	font-family: 'Barlow Condensed';
+  font-family: 'Barlow Condensed';
   font-weight: 600;
 }
 
@@ -85,31 +83,12 @@ nav
 nav img
 {
   width: 60px;
-
-<<<<<<< HEAD
-.dropdown-menu
-{
-  
-  background: rgba(195, 177, 225, 0.9);
-  border-radius: 0.5em;
-  box-shadow:
-    inset 0px -6px 18px -6px rgba(195, 177, 225, 0.2),
-    inset rgba(195, 177, 225, 0.3) -1px -1px 6px 0px,
-    inset 12px 0px 12px -6px rgba(195, 177, 225, 0.1),
-    inset -12px 0px 12px -6px rgba(195, 177, 225, 0.1),
-    rgba(195, 177, 225, 0.4) -1px -1px 6px 0px;  
-   
-
-    
-
 }
 
-=======
->>>>>>> 9e00836ce092e8d26445c2c2fc3ba0982edd27a3
 footer
 {
-	font-family: 'type_icons';
-	display: flex;
+  font-family: 'type_icons';
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
