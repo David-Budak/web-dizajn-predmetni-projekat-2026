@@ -41,7 +41,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="./videos.html">VIDEI</a>
+        <a class="nav-link" href="./videos.html">VIDEO</a>
       </li>
 
       <li class="nav-item">
@@ -66,6 +66,95 @@
   </div>
 
 </nav>
+
+<!-- main container -->
+<div class="container-fluid p-5">
+  
+  <div class="row">
+    
+    <!-- SLIKA -->
+    <div class="col-md-4">
+      <img src="./gallery/music/bliss.png" class="img-fluid" alt="Slika nije učitana">
+    </div>
+
+    <!-- TEKST  -->
+    <div class="col-md-8 lead">
+
+      <p class="h3">Bliss</p>
+
+      <p>
+        Posljednja pjesma na ovom EP izdanju je “Bliss”; donosi nam meditacije o izboru, gubitku i prolaznosti. Radi se o sreći i patnji, o neizvjesnosti koja nastaje pri odlučivanju. Muzički,  osjetimo balans između melanholične melodije i intenziteta kojim se stavlja tačka na i.
+        <br>“Bliss” sumira koncept Zenita i njihovog EP izdanja. Putujemo kroz ljubav i patnju, prihvatamo prolaznosti i emotivne katarze.
+      </p>
+
+    <!-- PLAY AUDIO  -->
+    <div class="card custom-color lead p-3 rounded-5 mt-5">
+      <div class="d-flex align-items-center gap-4 ">
+
+        <button id="playBtn" class="btn button">
+          ▶
+        </button>
+
+        <div class="flex-grow-1">
+          <p style="text-align: center;">Zenit – Bliss</p>
+          <input
+            type="range"
+            id="progress"
+            class="form-range"
+            value="0"
+          >
+        </div>
+
+        <span id="time">0:00</span>
+
+        </div>
+
+        <audio id="audio">
+          <source src="./gallery/music/bliss.mp3" type="audio/mp3" controls>
+        </audio>
+
+        <script src="play-audio.js"></script>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Linkovi ka pesmama -->
+  <br>
+  <br>
+
+  <div class="row mt-5 justify-content-center">
+    <p class="h1">Želiš da saznaš više o muzici Zenita?</p>
+  </div>
+
+  <div class="row mt-5 justify-content-center">
+
+
+    <div class="col-md-2 button">
+      <p class="lead" style="text-align: center;">Klikni da vidiš</p>
+      <a href="./ep.html"><img src="./gallery/music/ep.jpg" class="img-fluid" alt="Slika nije učitana"></a>
+      <p class="quote" style="text-align:center">Bliss Leaves As All Things Do</p>
+    </div>
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-2 button">
+      <p class="lead" style="text-align: center;">Klikni da vidiš</p>
+      <a href="./lucid.html"><img src="./gallery/music/lucid.png" class="img-fluid" alt="Slika nije učitana"></a>
+      <p class="quote" style="text-align:center">Lucid</p>
+    </div>
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-2 button">
+      <p class="lead" style="text-align: center;">Klikni da vidiš</p>
+      <a href="./transparent.html"><img src="./gallery/music/transparent.png" class="img-fluid" alt="Slika nije učitana"></a>
+      <p class="quote" style="text-align:center">Transparent</p>
+    </div>
+  </div>
+  
+</div>
 
 <!-- BACK TO TOP -->  
 <button id="btnTop" class="button text-to-the-top  position-fixed bottom-0 end-0 m-4" >
