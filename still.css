@@ -22,21 +22,35 @@ img
 {
 	border-radius: 30px;
 }
+
 /* NAVBAR */
 
 nav
 {
-	font-family: Barlow;
+	font-family: 'Barlow Condensed';
+  font-weight: 600;
 }
 
 .custom-color
 {
-	background-color: #3f2840;
+  background-color: #3f2840;
 }
 
 .navbar-nav
 {
 	align-items: center;
+}
+
+.dropdown-menu .active
+{
+  background-color: #604060;
+  color: #ffffff;
+}
+
+.dropdown-menu .active:hover
+{
+  background-color: #806080;
+  transition: .25s ease;
 }
 
 .navbar ul
@@ -58,14 +72,25 @@ nav img
 	width: 60px;
 }
 
+.dropdown-menu
+{
+  background: rgba(195, 177, 225, 0.9);
+  border-radius: 0.5em;
+  box-shadow:
+    inset 0px -6px 18px -6px rgba(195, 177, 225, 0.2),
+    inset rgba(195, 177, 225, 0.3) -1px -1px 6px 0px,
+    inset 12px 0px 12px -6px rgba(195, 177, 225, 0.1),
+    inset -12px 0px 12px -6px rgba(195, 177, 225, 0.1),
+    rgba(195, 177, 225, 0.4) -1px -1px 6px 0px;  
+}
+
 footer
 {
 	font-family: 'type_icons';
 	display: flex;
-    align-items: center;
-    justify-content: center;
- margin-top: 50px;
- 
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .main-page
@@ -93,7 +118,7 @@ footer
     rgba(195, 177, 225, 0.4) -1px -1px 6px 0px;      
   border: solid 2px #C3B1E1; 
   cursor: pointer;
-  font-family: Barlow;
+  font-family: 'Barlow Condensed';
   font-size: 18px;
   padding: 0.7em 1.7em;
   outline: none;
@@ -119,10 +144,9 @@ footer
     -1px -1px 6px 0px rgba(195, 177, 225, 0.5);
 }
 
-.text-to-the-top {
+.text-to-the-top 
+{
   color: #C3B1E1; 
-
-   
   font-weight: 700;
   margin: auto;
   transition: all 0.3s;
@@ -141,7 +165,8 @@ footer
 {
   font-size: 25px;
   font-family: 'Barlow Condensed';
- font-weight: 400;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .container-fluid .h1
@@ -150,13 +175,15 @@ footer
   font-weight: 600;
   letter-spacing: 3px;
   text-align: center;
+
+  margin-top: 20px;
 }
 
 .container-fluid .h3
 {
   font-family: 'Barlow Condensed';
-  font-weight: 600;
-  letter-spacing: 3px;
+  font-weight: 700;
+  letter-spacing: 4px;
   margin-top: 20px;
   margin-bottom: 0px;
 }
@@ -171,8 +198,27 @@ footer
   text-align: center;
 }
 
-
-.carousel-inner img
+.blockquote-footer
 {
-  image-resolution: ;
-} 
+  font-size: 25px;
+  font-family: 'Barlow Condensed';
+  font-weight: 400;
+  color: #999999;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.section 
+{
+  display: flex;
+  background-color: black;
+}
+
+
+.border-scrollspy
+{
+  background-color: black;
+  border-radius: 5px;
+  border-color: white;
+  border: 5px;
+}
