@@ -12,6 +12,6 @@ function sendMail(){
 
 }
 
-emailjs.send("service_z2l128i","template_htstmys", parms).then(alert("Email Sent!!"))
+emailjs.send("service_z2l128i","template_htstmys", parms).then(alert("Email Sent!"))
 
 }
